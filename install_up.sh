@@ -15,6 +15,7 @@ wget -q -O /usr/bin/menu-set "https://raw.githubusercontent.com/arzvpn/arzxray/m
 wget -q -O /usr/bin/menu-theme "https://raw.githubusercontent.com/arzvpn/arzxray/main/update/menu-theme.sh" && chmod +x /usr/bin/menu-theme
 wget -q -O /usr/bin/menu-backup "https://raw.githubusercontent.com/arzvpn/arzxray/main/update/menu-backup.sh" && chmod +x /usr/bin/menu-backup
 wget -q -O /usr/bin/menu-ip "https://raw.githubusercontent.com/arzvpn/arzxray/main/update/menu-ip.sh" && chmod +x /usr/bin/menu-ip
+wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/arzvpn/arzxray/main/update/slowdnsmenu.sh" && chmod +x /usr/bin/slowdnsmenu
 wget -q -O /usr/bin/menu-tor "https://raw.githubusercontent.com/arzvpn/arzxray/main/update/menu-tor.sh" && chmod +x /usr/bin/menu-tor
 wget -q -O /usr/bin/autoboot "https://raw.githubusercontent.com/arzvpn/arzxray/main/update/autoboot.sh" && chmod +x /usr/bin/autoboot
 wget -q -O /usr/bin/menu-tcp "https://raw.githubusercontent.com/arzvpn/arzxray/main/update/menu-tcp.sh" && chmod +x /usr/bin/menu-tcp
