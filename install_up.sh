@@ -29,6 +29,7 @@ wget -q -O /usr/bin/autokill "https://raw.githubusercontent.com/arzvpn/arzxray/m
 wget -q -O /usr/bin/tendang "https://raw.githubusercontent.com/arzvpn/arzxray/main/update/tendang.sh" && chmod +x /usr/bin/tendang
 wget -q -O /usr/bin/delete "https://raw.githubusercontent.com/arzvpn/arzxray/main/update/delete.sh" && chmod +x /usr/bin/delete
 wget -q -O /usr/bin/about "https://raw.githubusercontent.com/arzvpn/arzxray/main/update/about.sh" && chmod +x /usr/bin/about
+wget -q -O /usr/bin/about "https://raw.githubusercontent.com/arzvpn/arzxray/main/update/runupdate.sh" && chmod +x /usr/bin/update
 echo -e " [INFO] Update Successfully"
 echo -e " [INFO] Update Successfully"
 sleep 2
