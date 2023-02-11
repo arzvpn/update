@@ -261,24 +261,6 @@ echo -e "[ ${green}INFO${NC} ] Preparing the install file"
 apt install git curl -y >/dev/null 2>&1
 echo -e "[ ${green}INFO${NC} ] installation file is ready"
 sleep 2
-echo -ne "[ ${green}INFO${NC} ] Check your permission : "
-
-PERMISSION
-if [ -f /home/needupdate ]; then
-red "Your script need to update first !"
-exit 0
-elif [ "$res" = "Permission Accepted..." ]; then
-green "Permission Accepted!"
-else
-red "Permission Denied!
-Please Buy AutoScript Premium
-WA: 083117634078
-Telegram: t.me/Store_Arz"
-rm setup.sh > /dev/null 2>&1
-sleep 10
-exit 0
-fi
-sleep 3
 
 mkdir -p /etc/arzvpn
 mkdir -p /etc/arzvpn/theme
