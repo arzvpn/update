@@ -45,7 +45,7 @@ export VERSION="1.0"
 # // Exporint IP AddressInformation
 export IP=$( curl -s https://ipinfo.io/ip/ )
 
-
+clear
 # // License Validating
 echo ""
 read -p "Input Your License Key : " Input_License_Key
@@ -55,7 +55,7 @@ if [[ $Input_License_Key ==  "" ]]; then
     echo -e "${EROR} Please Input License Key !${NC}"
     exit 1
 fi
-clear
+
 # // Checking License Validate
 Key="$Input_License_Key"
 
@@ -232,23 +232,6 @@ apt install git curl -y >/dev/null 2>&1
 echo -e "[ ${green}INFO${NC} ] installation file is ready"
 sleep 2
 echo -ne "[ ${green}INFO${NC} ] Check your permission : "
-
-PERMISSION
-if [ -f /home/needupdate ]; then
-red "Your script need to update first !"
-exit 0
-elif [ "$res" = "Permission Accepted..." ]; then
-green "Permission Accepted!"
-else
-red "Permission Denied!
-Please Buy AutoScript Premium
-WA: 083117634078
-Telegram: t.me/Store_Arz"
-rm setup.sh > /dev/null 2>&1
-sleep 10
-exit 0
-fi
-sleep 3
 
 mkdir -p /etc/arzvpn
 mkdir -p /etc/arzvpn/theme
