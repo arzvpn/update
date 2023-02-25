@@ -30,6 +30,11 @@ wget -q -O /usr/bin/tendang "https://raw.githubusercontent.com/arzvpn/arzxray/ma
 wget -q -O /usr/bin/delete "https://raw.githubusercontent.com/arzvpn/arzxray/main/update/delete.sh" && chmod +x /usr/bin/delete
 wget -q -O /usr/bin/about "https://raw.githubusercontent.com/arzvpn/arzxray/main/update/about.sh" && chmod +x /usr/bin/about
 wget -q -O /usr/bin/runupdate "https://raw.githubusercontent.com/arzvpn/arzxray/main/update/runupdate.sh" && chmod +x /usr/bin/runupdate
+wget -q -O /usr/bin/portssl "https://raw.githubusercontent.com/arzvpn/arzxray/main/change-port/port-ssl.sh" && chmod +x /usr/bin/portssl
+wget -q -O /usr/bin/portws "https://raw.githubusercontent.com/arzvpn/arzxray/main/change-port/port-websocket.sh" && chmod +x /usr/bin/portws
+wget -q -O /usr/bin/portxray "https://raw.githubusercontent.com/arzvpn/arzxray/main/change-port/port-xray.sh" && chmod +x /usr/bin/portxray
+wget -q -O /usr/bin/ssh-wsenabler "https://raw.githubusercontent.com/arzvpn/arzxray/main/ssh/sshws-true.sh" && chmod +x /usr/bin/ssh-wsenabler
+wget -q -O /usr/bin/change-port "https://raw.githubusercontent.com/arzvpn/arzxray/main/update/change-port.sh" && chmod +x /usr/bin/change-port
 echo -e " [INFO] Update Successfully"
 echo -e " [INFO] Update Successfully"
 sleep 2
